@@ -1,0 +1,193 @@
+Installed PowerShell Modules & Winget Packages
+Author: Salted Slug
+Website: saltedslug.net
+Email: thesaltedslug at proton dot me
+
+Last Update: 1/30/2024
+Current PS Version: PowerShell 7 - v7.4.1.0
+
++-----------------+
+|    PS Modules   |
++-----------------+
+
+## 7-Zip4PowerShell - Just like it sounds.
+https://github.com/thoemmi/7Zip4Powershell
+
+## Neofetch - Command-Line System Info Tool. For sharing your cool Rainmeter build screenshots on Reddit, you know? Requires Scoop to install it within the Windows Terminal.
+https://github.com/dylanaraps/neofetch
+
+## OpenSSH - Gotta have it for secure networking :)
+https://github.com/MicrosoftDocs/windowsserverdocs/blob/main/WindowsServerDocs/administration/OpenSSH/OpenSSH_Install_FirstUse.md
+
+## PSWindowsUpdate - I'm lazy. I'm a SysAdmin. I love to run Windows updates from the CLI.
+https://github.com/mgajda83/PSWindowsUpdate
+
+## Winget - Windows Package Manager. Used to install what you see in the list below.
+https://github.com/microsoft/winget-cli
+
++-----------------+
+| Winget Packages |
++-----------------+
+
+## 7-Zip - File Archiving/Compression
+https://7-zip.org/
+--id 7zip.7zip
+
+## ASIO4ALL - Open-Source ASIO Audio Driver
+https://asio4all.org/
+--id MichaelTippach.ASIO4ALL
+
+## Audacity - Open-Source Digital Audio Workstation (DAW)
+https://www.audacityteam.org/
+--id Audacity.Audacity
+
+## CrystalDiskInfo - Libre Hard Disk Utility
+https://crystalmark.info/
+--id CrystalDewWorld.CrystalDiskInfo
+
+## Cyberduck - Open-Source Storage Browser for FTP, SFTP, WebDAV, etc.
+https://cyberduck.io/
+--id Iterate.Cyberduck
+
+## DVD Decrypter - Not in active development anymore, but it DOES still work. I'm not saying this is illegal, but just be aware of the consequences of ripping copyrighted media. :)
+http://dvddecrypter.org.uk/
+No winget package, use the link above!
+
+## FFmpeg - Open-Source Audio & Video Encoder/Transcoder
+https://ffmpeg.org/
+--id Gyan.FFmpeg
+
+## fre:ac - Libre Audio Converter & CD Ripper. Rips CDs fast and easy. >:)
+https://www.freac.org/
+No winget package, use the link above!
+
+## GIMP - Cross-Platform Open-Source Image Editor (like Photoshop)
+https://www.gimp.org/
+--id GIMP.GIMP
+
+## Git - Open-Source Codebase Version Control
+https://git-scm.com/
+--id Git.Git
+
+## Handbrake - Open-Source Video Transcoder
+https://handbrake.fr/
+--id HandBrake.HandBrake
+
+## ImgBurn - Open-Source Utility that can read/write/build/verify disc images (DVDs, CDs, Blu-Rays). This is one of my favorite and most-used utilities ever. Made by the same developer as DVD decrypter, what a cool guy!
+https://www.imgburn.com/
+--id LIGHTNINGUK.ImgBurn
+
+## Inkscape - Open-Source Vector Creation/Editing Program (like Illustrator)
+https://inkscape.org/
+--id Inkscape.Inkscape
+
+## IrfanView - Open-Source Photo Viewer & Editor
+https://www.irfanview.com/
+--id IrfanSkiljan.IrfanView
+
+## LibreOffice - Open-Source Office Suite
+https://www.libreoffice.org/
+--id TheDocumentFoundation.LibreOffice.LTS
+
+## MakeMKV - Utility for (legal) conversion of DVD/Blu-Rays into .MKV files.
+https://www.makemkv.com/
+--id GuinpinSoft.MakeMKV
+
+## MKVToolNix - Open-Source Toolkit for working with .MKV (Matroska) files.
+https://mkvtoolnix.download/
+--id MoritzBunkus.MKVToolNix
+
+## Mp3tag - Universal Libre Audio Tag Editor
+https://www.mp3tag.de/
+--id Mp3tag.Mp3tag
+
+## Mullvad VPN Client - I prefer Mullvad because they gather no personal information and have a much better ethos than other VPN companies.
+https://mullvad.net/en
+--id MullvadVPN.MullvadVPN
+
+## Nano - Open-Source Text Editor
+https://www.nano-editor.org/
+--id GNU.Nano
+
+## NexusFont - Font Manager & Viewer. Way better than the built-in manager that comes with Windows.
+https://nexusfont.en.softonic.com/
+--id xiles.NexusFont
+
+## Notepad++ - Open-Source Text & Source Code Editor
+https://notepad-plus-plus.org/
+--id Notepad++.Notepad++
+
+## Notion - Notes Wiki (Geared towards corporate project management, but I use it to keep track of my life)
+https://www.notion.so/
+--id Notion.Notion
+
+## OBS Studio - Open-Source and Cross-Platform Broadcasting/Screencasting App
+https://obsproject.com/
+--id OBSProject.OBSStudio
+
+## Oracle VM VirtualBox - Open-Source Virtualization Software.
+https://www.virtualbox.org/
+--id Oracle.VirtualBox
+
+## PowerToys - Power User Tools for Windows (I use these modules within PowerToys: FancyZones, Color Picker, Image Resizer, and PowerRename)
+https://learn.microsoft.com/en-us/windows/powertoys/
+--id Microsoft.PowerToys
+
+## Revo Uninstaller - Great little freeware tool that rips out installed applications better than their own uninstallers do.
+https://www.revouninstaller.com/
+--id RevoUninstaller.RevoUninstaller
+
+## ShareX - Open-Source Screenshot Utility
+https://getsharex.com/
+--id ShareX.ShareX
+
+## Signal - End-to-End Encrypted Messaging App
+https://signal.org/
+--id OpenWhisperSystems.Signal
+
+## Starship - For Terminal Customization
+https://starship.rs/
+--id Starship.Starship
+ * To add Starship invoke & config location to PowerShell $PROFILE variable:
+  Invoke-Expression (&starship init powershell)
+  $ENV:STARSHIP_CONFIG = "$HOME\example\non\default\path\starship.toml"
+  
+## Strawberry Music Player - Open-Source Media Player. I've tried about every desktop music library/player app you can think of, but this is my favorite by far. The integrations for lyrics, album art, tag editing, and other things is just so handy and a time-saver if you have a huge music library like I do.
+https://www.strawberrymusicplayer.org/
+--id StrawberryMusicPlayer.Strawberry
+
+## Teracopy - Freemium File Transfer Utility. This is an ESSENTIAL install for me on any Windows PC. The built-in transfer system used by the File Explorer SUCKS; use this instead.
+https://www.codesector.com/teracopy
+--id CodeSector.TeraCopy
+
+## VLC Media Player - Open-Source Media Player. This bad boy will play any video file format you throw at it.
+https://www.videolan.org/vlc/
+--id VideoLAN.VLC
+
+## VSCodium - Telemetry-Free Binary of Microsoft VSCode IDE
+https://vscodium.com/
+--id VSCodium.VSCodium
+
+## WinDirStat - Disk Space Analyzer Utility. I love Windirstat. Best way to visually measure what the hell is taking up so much space on your computer.
+https://windirstat.net/
+--id WinDirStat.WinDirStat
+
+## qBittorrent - Open-Source Torrent Utility. This is every nerd's go-to right now. I'm sure it'll change again in a few years when they inevitably get bought out by an evil corporation, but for now it works and integrates well with my VPN client.
+https://www.qbittorrent.org/
+--id qBittorrent.qBittorrent
+
+## WinSCP - Libre SFTP/FTP Graphical Client for Windows. The IT bro's favorite file manager. I use this to toss files around from my Windows PC to all my different Linux servers.
+https://winscp.net/eng/index.php
+--id WinSCP.WinSCP
+
++----------------------+
+| Modules to Check Out |
++----------------------+
+## ps-logging
+https://9to5it.com/powershell-logging-v2-easily-create-log-files/
+
+## computer mgmt - time zones, power settings, configure vram, etc
+Install-Module -Name ComputerManagementDsc
+
+## xPSDesiredStateConfiguration - configure common OS features, files, and settings
+Install-Module -Name xPSDesiredStateConfiguration 
