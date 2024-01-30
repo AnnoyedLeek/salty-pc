@@ -1,0 +1,12 @@
+* BYPASS WIN11 INTERNET REQUIREMENT
+1. Shift+F10
+2. oobe\bypassnro   
+Then you can reactivate the Internet connection and add a password to the account, as well as make all other settings. 
+
+* Alternative Workaround that should remain feasible, more trouble than the simple above command:
+1. If the Internet is disabled, you start the reinstallation of Windows 11. You get to the window: "Unfortunately you have lost the Internet connection". From here it starts. Replace "User Name" with whatever you wish to use for the account: 
+2. Press Shift + F10 to open the Command Prompt.
+3. net.exe user "User Name" /add 
+4. net.exe localgroup "Administrators" "User Name" /add 
+5. cd OOBE 
+6. msoobe.exe && shutdown.exe -r 
