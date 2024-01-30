@@ -1,0 +1,42 @@
+Binding qBittorrent to an interface
+
+The first step is to bind qBittorrent to the Mullvad network interface to prevent it from leaking your IP in some situations.
+Windows
+
+    Start the Mullvad app and connect to a location.
+
+    Open qBittorrent.
+
+    Click on Tools > Options... > Advanced.
+
+    Change Network interface to Mullvad.
+
+    Click on OK.
+
+    Click on File > Exit and then start qBittorrent again.
+
+    Continue with the steps in the next section.
+
+Recommended qBittorrent settings
+
+    Click on Tools.
+
+    Click on Options (in Windows) or Preferences (in Linux and macOS)
+
+    Click on BitTorrent.
+
+    Check Enable anonymous mode.
+
+    Uncheck (disable) Enable DHT.
+
+    Uncheck (disable) Enable PeX.
+
+    Uncheck (disable) Enable Local peer discovery.
+
+    Click on Connection.
+
+    For Peer connection protocol, use the drop-down menu to select TCP.
+
+Mullvad app settings
+
+If you use the Mullvad desktop app then go to Settings > Advanced and enable "Always require VPN". This will block your Internet if you disconnect it by mistake. 
