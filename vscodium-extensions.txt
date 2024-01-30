@@ -1,0 +1,10 @@
+=== VSCODE EXTENSIONS ===
+
+* EXTENSION NAME // AUTHOR *
+Path Intellisense - Christian-Kohler
+HTML CSS Support - ecmel
+Excel Viewer - GrapeCity
+Gruvbox Theme - jdinhlife
+Live Preview - ms-vscode
+Indent Rainbow - oderwat
+Simple Icons - LaurentTreguier
