@@ -1,0 +1,8 @@
+software
+--------
+
+mRemoteNG - My Windows remote connections manager of choice, both at home and at any IT day job. Simple, works well, and easy to organize.
+https://mremoteng.org/
+
+Ditto - Clipboard manager that works in tandem with the Windows clipboard.
+https://ditto-cp.sourceforge.io/

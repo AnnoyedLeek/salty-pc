@@ -3,7 +3,7 @@ Author: Salted Slug
 Website: saltedslug.net
 Email: thesaltedslug at proton dot me
 
-Last Update: 1/30/2024
+Last Update: 1/31/2024
 Current PS Version: PowerShell 7 - v7.4.1.0
 
 +-----------------+
@@ -72,6 +72,11 @@ https://git-scm.com/
 ## Handbrake - Open-Source Video Transcoder
 https://handbrake.fr/
 --id HandBrake.HandBrake
+
+## Internet Download Manager - Freemium Download Manager. Auto-sorts downloads via any contemporary browser (with an extension). As an archivist, this little tool saves me so much time!
+https://www.internetdownloadmanager.com/
+--id Tonec.InternetDownloadManager
+	*This only includes a 30 day trial. If you'd like to activate the software then I'd recommend visiting here: https://massgrave.dev/idm-activation-script.html
 
 ## ImgBurn - Open-Source Utility that can read/write/build/verify disc images (DVDs, CDs, Blu-Rays). This is one of my favorite and most-used utilities ever. Made by the same developer as DVD decrypter, what a cool guy!
 https://www.imgburn.com/
